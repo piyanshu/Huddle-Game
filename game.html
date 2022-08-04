@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle Game</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div onclick = "jumpFunction()" class="gameContainer">
+        <div class="glass">
+            <div class="header"><h1>Huddle Game</h1></div>
+            <button id="scoreCount"> Your Score is: 0</button>
+            <button><a href="./game.html">Restart Game</a></button>
+            <!-- <div id="scoreCount">Your Score: 0</div> -->
+        </div>
+        <div class="gameOver">
+            GAME OVER
+            <!-- <button id="scoreCount" style="border: none; cursor: auto;"> Your Score is: 0</button> -->
+        </div>
+        <div class="mario"></div>
+        <div class="huddle huddleAnimation"></div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
